@@ -43,7 +43,7 @@ body {
 }
 .container .card:hover .imgBx img {
   transform: translate(-50%, -50%);
-  transition: 0.5s ease-in-out;
+  transition-delay: 0.2s;
 }
 .container .card:hover .contentBx {
   height: 210px;
@@ -91,6 +91,7 @@ body {
   top: 50%;
   left: 50%;
   width: 262px;
+  transition: 0.5s;
   transform: translate(-50%, -50%) rotate(-10deg);
 }
 .container .card .contentBx {
@@ -133,7 +134,7 @@ body {
   font-size: 14px;
   display: inline-block;
   color: #4d455e;
-  background: #8a93dc;
+  background: #b7a6e2;
   border-radius: 4px;
   margin: 0 5px;
   transition: 0.5s;
@@ -163,7 +164,7 @@ body {
 .container .card .contentBx a {
   display: inline-block;
   padding: 10px 30px;
-  background: #8a93dc;
+  background: #b7a6e2;
   border-radius: 4px;
   margin-top: 10px;
   text-decoration: none;
